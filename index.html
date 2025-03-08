@@ -78,7 +78,7 @@
 
     <!-- header section ends here -->
     <!-- main section starts here -->
-    <main class="">
+    <main class="relative">
       <!-- section 1 starts here -->
 
       <section class="bg-[#0E1035] py-16">
@@ -192,11 +192,11 @@
         </div>
 
         <!-- cards section starts here -->
-        <div class="flex justify-evenly mt-16">
+        <div class="flex justify-between mt-16 gap-5">
           <!-- 1st card -->
-          <div class="card bg-base-100 w-96 rounded-4xl shadow-2xl">
+          <div class="card bg-base-100 w-96 rounded-4xl shadow-2xl flex-1">
             <figure
-              class="bg-[url('/images/bg_img.png')] bg-cover bg-center p-16"
+              class="bg-[url('/images/bg_img.png')] bg-cover bg-center p-16 h-[60%]"
             >
               <img src="./images/CESSNA 208 CARAVAN.png" alt="CESSNA" />
             </figure>
@@ -208,23 +208,151 @@
           </div>
 
           <!-- 2nd card -->
-          <div class="card bg-base-100 w-96 rounded-4xl shadow-2xl">
+          <div class="card bg-base-100 w-96 rounded-4xl shadow-2xl flex-1">
             <figure
-              class="bg-[url('/images/bg_img.png')] bg-cover bg-center p-16"
+              class="bg-[url('/images/bg_img.png')] bg-cover bg-center p-16 h-[60%]"
             >
               <img src="./images/BEECHCRAFT B1900D.png" alt="BEECHCRAFT" />
             </figure>
             <div class="card-body justify-center items-center">
               <h2 class="card-title font-semibold text-2xl">
-                CESSNA 208 CARAVAN
+                BEECHCRAFT B1900D
               </h2>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="mt-44"></section>
+      <!-- section 3 ends here -->
+      <!-- section 4 starts here -->
+
+      <section
+        class="mt-44 bg-[url('./images/left_bg.png')] bg-no-repeat bg-right"
+      >
+        <div class="max-w-[1440px] mx-auto p-6">
+          <h3 class="font-bold text-6xl">
+            This is what clients <br />say about us
+          </h3>
+
+          <!-- cards container -->
+          <div class="mt-16 flex gap-5">
+            <!-- 1st card -->
+            <div
+              class="card rounded-4xl shadow-2xl p-8 max-h-[300px] space-y-8 bg-white"
+            >
+              <div class="flex gap-6">
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="./images/image 22.png" />
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-bold text-[#232323] text-2xl">Ade Pranaya</h4>
+                  <p>PT Pertamina</p>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <h4 class="text-2xl text-[#0E1035]">
+                  Thank you Travira air I'm very happy, my <br />
+                  work goes smoothly
+                </h4>
+                <div>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2nd card -->
+            <div
+              class="card rounded-4xl shadow-2xl p-8 max-h-[340px] space-y-8 bg-white mb-60"
+            >
+              <div class="flex gap-6">
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="./images/Ellipse.png" />
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-bold text-[#232323] text-2xl">
+                    Efran Adiyatma
+                  </h4>
+                  <p>PT Petronas</p>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <h4 class="text-2xl text-[#0E1035]">
+                  Thank you, I was helped by being there <br />
+                  travira air The flight is very comfortable <br />and safe.
+                </h4>
+                <div>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 4 ends here -->
+
+      <!-- section 5 starts here -->
+
+      <section
+        class="relative w-[80%] max-w-[1440px] mx-auto -mt-40 bg-[#0E1035] flex justify-between p-28 rounded-[80px] items-center"
+      >
+        <p class="font-semibold text-5xl text-white">
+          Don't hesitate <br />
+          to contact us
+        </p>
+        <button
+          class="btn btn-primary font-bold text-3xl bg-white text-[#0E1035] px-16 py-8 rounded-3xl"
+        >
+          Contact Us
+        </button>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- main section ends here -->
+    <!-- footer section starts here -->
+    <footer
+      class="footer flex justify-evenly text-base-content p-10 mt-20 max-w-[1440px] mx-auto relative"
+    >
+      <aside>
+        <img src="./images/Air logo.png" alt="" />
+      </aside>
+      <nav class="font-medium text-[#0E1035]">
+        <h6 class="footer-title font-bold text-2xl">Company</h6>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">Blog</a>
+      </nav>
+      <nav class="font-medium text-[#0E1035]">
+        <h6 class="footer-title font-bold text-2xl">Service</h6>
+        <a class="link link-hover">Scheduled & Spot Charter</a>
+        <a class="link link-hover">Medical Evacuation Flight</a>
+        <a class="link link-hover">Aircraft Management</a>
+      </nav>
+      <nav class="font-medium text-[#0E1035]">
+        <h6 class="footer-title font-bold text-2xl">Office</h6>
+        <a class="link link-hover">commercial@travira-air.com</a>
+        <a class="link link-hover">Graha Paramita 3rd Floor</a>
+        <a class="link link-hover"
+          >Jl. Denpasar Raya Blok D-2 Kav.8 Kuningan <br />
+          Jakarta 12940, Indonesia</a
+        >
+      </nav>
+    </footer>
   </body>
 </html>
